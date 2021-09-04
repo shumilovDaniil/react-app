@@ -1,0 +1,8 @@
+.section_title {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    opacity: .2;
+    border-bottom: 1px solid grey;
+    padding-bottom: 3px;
+    margin-bottom: 5px;
+}

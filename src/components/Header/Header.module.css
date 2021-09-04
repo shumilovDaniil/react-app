@@ -1,0 +1,21 @@
+.header {
+    grid-area: h;
+    display: flex;
+    align-items: center;
+    transition: border .3s ease;
+}
+
+.header img {
+    width: 30px;
+    object-fit: cover;
+    height: 30px;
+    margin: 0 0 0 2em;
+}
+
+.header:hover {
+    border-color: black;
+}
+
+.title {
+    font-size: 29px;
+}

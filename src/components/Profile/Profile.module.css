@@ -1,0 +1,58 @@
+.section_title {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    opacity: .2;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 30%), 0 1px 2px 0 rgb(0 0 0 / 20%);
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    display: flex;
+    font-weight: 500;
+}
+
+h1 {
+    margin: .2em 0 .2em;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1em;
+}
+
+.title {
+    margin-bottom: 5px;
+}
+
+.form {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.textarea {
+    resize: none;
+    width: 50%;
+    font-family: sans-serif;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%);
+    margin-right: 10px;
+}
+
+.button {
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%);
+    border: none;
+    padding: 10px 30px;
+    background-color: inherit;
+    cursor: pointer;
+    border-radius: 8px;
+    height: 50%;
+    transition: box-shadow .3s ease;
+}
+
+.button:hover {
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 20%), 0 1px 2px 0 rgb(0 0 0 / 10%);
+}
